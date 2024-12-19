@@ -1,4 +1,4 @@
-# Funcionalidades:
+#Funcionalidades:
 
 ** Interfaz Gráfica de Usuario (GUI): **
 Utiliza PyQt6 para crear una ventana con campos de texto para ingresar información y botones para interactuar.
