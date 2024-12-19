@@ -1,8 +1,17 @@
-#Funcionalidades:
+Descripción:
 
-** Interfaz Gráfica de Usuario (GUI): **
+Descripción general de la aplicación:
+Es un convertidor de archivos Python a ejecutables EXE utilizando la biblioteca PyInstaller.
+Proporciona una interfaz gráfica para simplificar el proceso de conversión.
+Permite a los usuarios configurar opciones como el nombre del archivo EXE, el icono, la imagen y la visualización de la consola.
+Funcionalidades:
+
+**Interfaz Gráfica de Usuario (GUI):**
+
 Utiliza PyQt6 para crear una ventana con campos de texto para ingresar información y botones para interactuar.
 Presenta un estilo oscuro moderno.
+Funcionalidades de la GUI:
+
 Seleccionar Archivo Python:
 Permite al usuario seleccionar el archivo Python que desea convertir a EXE a través de un cuadro de diálogo de selección de archivos.
 Seleccionar Icono:
@@ -27,8 +36,3 @@ Un formulario con:
 Un campo de texto para el nombre del archivo EXE.
 Botones para seleccionar el archivo Python, el icono y la imagen.
 Checkbox para mostrar/ocultar la consola.
-Botón para convertir a EXE.
-Botón para cerrar la aplicación.
-select_python_file, select_icon_file, select_image_file: Funciones para manejar la selección de archivos por parte del usuario.
-convert_to_exe:
-Obtiene los valores de la GUI.
